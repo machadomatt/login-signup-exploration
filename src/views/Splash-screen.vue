@@ -31,10 +31,10 @@ import readingIllustration from '../assets/images/reading-time.svg'
                     :to="'/signup'"
                     >Sign up</router-link
                 >
-                <a
+                <router-link
                     class="w-full px-6 py-4 font-semibold text-center transition duration-300 bg-white border text-primary border-primary rounded-xl hover:bg-primary-dark hover:border-primary-dark hover:text-white"
-                    href="#"
-                    >Log in</a
+                    :to="'/login'"
+                    >Log in</router-link
                 >
             </div>
         </div>

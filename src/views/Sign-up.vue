@@ -89,10 +89,10 @@ import readingIllustration from '../assets/images/reading.svg'
                 </div>
                 <p class="text-sm text-gray-500">
                     Already have an account?
-                    <a
+                    <router-link
                         class="font-semibold text-primary hover:text-primary-dark focus:text-primary-dark"
-                        href="#"
-                        >Log in</a
+                        :to="'/login'"
+                        >Log in</router-link
                     >
                 </p>
             </div>
