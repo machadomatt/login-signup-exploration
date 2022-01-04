@@ -34,7 +34,7 @@ import logInIllustration from '../assets/images/login.svg'
                     placeholder="Password"
                 />
                 <span
-                    class="inline-block mb-6 text-xs font-semibold text-primary hover:text-primary-dark focus:text-primary-dark"
+                    class="inline-block mb-6 text-xs font-semibold hover:cursor-pointer text-primary hover:text-primary-dark focus:text-primary-dark"
                     >Forgot password?</span
                 >
                 <button
