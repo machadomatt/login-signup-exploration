@@ -30,18 +30,18 @@ const switchVisibility = () =>
             </div>
             <div class="px-5 mt-10 mb-6">
                 <input
-                    class="w-full px-4 py-4 mb-6 font-medium transition duration-300 rounded-lg outline-none d-block bg-primary-100 ring-primary focus:ring-2"
+                    class="w-full px-4 py-4 mb-6 font-medium transition duration-300 rounded-lg outline-none d-block bg-primary-100 ring-primary focus:ring-2 placeholder:text-gray-400"
                     type="text"
                     placeholder="Full name"
                 />
                 <input
-                    class="w-full px-4 py-4 mb-6 font-medium transition duration-300 rounded-lg outline-none d-block bg-primary-100 ring-primary focus:ring-2"
+                    class="w-full px-4 py-4 mb-6 font-medium transition duration-300 rounded-lg outline-none d-block bg-primary-100 ring-primary focus:ring-2 placeholder:text-gray-400"
                     type="email"
                     placeholder="E-mail"
                 />
                 <div class="relative">
                     <input
-                        class="w-full px-4 py-4 font-medium transition duration-300 rounded-lg outline-none d-block bg-primary-100 ring-primary focus:ring-2"
+                        class="w-full px-4 py-4 font-medium transition duration-300 rounded-lg outline-none d-block bg-primary-100 ring-primary focus:ring-2 placeholder:text-gray-400"
                         :type="passwordFieldType"
                         placeholder="Password"
                     />
