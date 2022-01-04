@@ -26,10 +26,10 @@ import readingIllustration from '../assets/images/reading-time.svg'
             <div
                 class="flex flex-col items-center justify-center px-6 md:flex-row md:gap-6"
             >
-                <a
+                <router-link
                     class="w-full px-6 py-4 mb-6 font-semibold text-center text-white transition-colors duration-300 border border-primary bg-primary rounded-xl hover:bg-primary-dark md:mb-0"
-                    href="#"
-                    >Sign up</a
+                    :to="'/signup'"
+                    >Sign up</router-link
                 >
                 <a
                     class="w-full px-6 py-4 font-semibold text-center transition duration-300 bg-white border text-primary border-primary rounded-xl hover:bg-primary-dark hover:border-primary-dark hover:text-white"
